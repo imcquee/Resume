@@ -4,7 +4,7 @@
 #let importModules(modules, lang: metadata.language) = {
   for module in modules {
     include {
-      "modules_" + lang + "/" + module + ".typ"
+      "modules/" + module + ".typ"
     }
   }
 }
