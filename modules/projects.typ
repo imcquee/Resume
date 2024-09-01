@@ -28,7 +28,8 @@ to excel academically, socially, and professionally],
   date: [],
   location: [],
   description: list(
-    [Tool that allows you to build, deploy, and debug applications via FTP with one command],
+    [Tool that allows you to build, deploy, and debug applications for the PS Vita via FTP with one command],
     [Enables basic commands to be sent wirelessly via Unix/Windows CLI, VSCode, or MacBook Touch Bar (ex. screen on, restart, copy files)]
   ),
+  tags: ("Typescript", "Lua", "Sqlite")
 )
