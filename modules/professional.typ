@@ -39,4 +39,5 @@
   date: [2023 - Present],
   location: [Charlotte, NC],
   description: list([Designed a strangler-fig migration pattern to upgrade a large web forms project to modern Blazor],[Facilitated a migration from TFS to Git, including the creation of a Git tool to manage multiple repositories across the company], [Introduced a new document builder tool, eliminating the need for manual document creation],[Reduced the page load time for a high-traffic tool by 86%, saving relevant employees 50+ hours per year],[Optimized the pdf build and aggregation process, reducing generation times by 58%]),
+  tags: (".NET Core/Framework", "Blazor", "MS SQL", "Azure DevOps CI/CD")
 )

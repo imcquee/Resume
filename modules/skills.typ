@@ -22,6 +22,6 @@
 )
 
 #cvSkill(
-  type: [Personal Interests],
-  info: [Tennis #hBar() Live Music #hBar() Arsenal FC  ],
+  type: [Personal Interests and Hobbies],
+  info: [Trying new languages and tools \u{1F4BB} #hBar() Tennis \u{1F3BE} #hBar() Live Music \u{1F941} #hBar() Arsenal FC \u{26BD} #hBar() Going new places \u{1F3D6} ],
 )
