@@ -8,15 +8,20 @@
 
 #cvSkill(
   type: [Languages],
-  info: [English #hBar() French #hBar() Chinese],
+  info: [Typescript/Javascript #hBar() C\# #hBar() Python #hBar() HTML/CSS (Tailwind, SASS)],
 )
 
 #cvSkill(
   type: [Tech Stack],
-  info: [Tableau #hBar() Python (Pandas/Numpy) #hBar() PostgreSQL],
+  info: [Node #hBar() .NET (Core/Blazor) #hBar() SQL (MS SQL, Oracle DB) #hBar() MongoDB #hBar() Redis],
+)
+
+#cvSkill(
+  type: [Tooling & CI/CD],
+  info: [Docker #hBar() Nix #hBar() Github Actions #hBar() AWS Elastic Beanstalk #hBar() Azure DevOps Pipelines],
 )
 
 #cvSkill(
   type: [Personal Interests],
-  info: [Swimming #hBar() Cooking #hBar() Reading],
+  info: [Tennis #hBar() Live Music #hBar() Arsenal FC  ],
 )

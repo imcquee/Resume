@@ -9,7 +9,6 @@
   }
 }
 
-
 #show: cv.with(
   metadata, 
   profilePhoto: image("./src/avatar.png")
@@ -18,7 +17,5 @@
   "education",
   "professional",
   "projects",
-  "certificates",
-  "publications",
   "skills",
 ))

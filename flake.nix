@@ -1,4 +1,6 @@
 {
+  description = "Resume flake";
+
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
@@ -6,13 +8,17 @@
   outputs =
     { nixpkgs, ... }:
     let
-      system = "x86_64-linux";
+      system = "x86_64-darwin";
+      pkgs = import nixpkgs { inherit system; };
     in
     {
-      devShells."${system}".default =
-        let
-          pkgs = import nixpkgs { inherit system; };
-        in
-        pkgs.mkShell { packages = with pkgs; [ typst ]; };
+      devShells.${system} = {
+        default = pkgs.mkShell {
+          buildInputs = with pkgs; [
+            typst
+            zathura
+          ];
+        };
+      };
     };
 }

@@ -8,35 +8,35 @@
 #cvSection("Professional Experience")
 
 #cvEntry(
-  title: [Director of Data Science],
-  society: [XYZ Corporation],
-  logo: image("../src/logos/xyz_corp.png"),
-  date: [2020 - Present],
-  location: [San Francisco, CA],
+  title: [Junior Software Engineer],
+  society: [Fidelity Investments],
+  logo: image("../src/logos/fidelity.png"),
+  date: [2020 - 2021],
+  location: [Raleigh, NC],
   description: list(
-    [Lead a team of data scientists and analysts to develop and implement data-driven strategies, develop predictive models and algorithms to support decision-making across the organization],
-    [Collaborate with executive leadership to identify business opportunities and drive growth, implement best practices for data governance, quality, and security],
+    [LEAP program graduate: a 6-month full-stack development program for high-potential CS graduates],
+    [Maintained and developed sensitive customer investment APIs for high value executives],
   ),
-  tags: ("Tags Example here", "Dataiku", "Snowflake", "SparkSQL"),
+  tags: (".NET Core/Framework", "Java", "Angular", "Oracle SQL", "Azure DevOps CI/CD"),
 )
 
 #cvEntry(
-  title: [Data Analyst],
-  society: [ABC Company],
-  logo: image("../src/logos/abc_company.png"),
-  date: [2017 - 2020],
-  location: [New York, NY],
+  title: [Software Engineer/ Senior Software Engineer],
+  society: [Driven Deliveries],
+  logo: image("../src/logos/driven.jpeg"),
+  date: [2021 - 2023],
+  location: [Los Angeles, CA],
   description: list(
-    [Analyze large datasets using SQL and Python, collaborate with cross-functional teams to identify business insights],
-    [Create data visualizations and dashboards using Tableau, develop and maintain data pipelines using AWS],
-  ),
+    [Implemented a driver tracking system monitoring 100+ drivers daily in Southern, Central, and Northern California],
+    [Created a cloud based media library to share multimedia content across the company], [Led development for a dynamic routing system that leverages vehicle routing algorithms with safe and transactional overrides]),
+  tags: ("Typescript", "NodeJS", "React", "React Native", "MongoDB", "Github Actions", "AWS Elastic Beanstalk CI/CD")
 )
 
 #cvEntry(
-  title: [Data Analysis Intern],
-  society: [PQR Corporation],
-  logo: image("../src/logos/pqr_corp.png"),
-  date: [Summer 2017],
-  location: [Chicago, IL],
-  description: list([Assisted with data cleaning, processing, and analysis using Python and Excel, participated in team meetings and contributed to project planning and execution]),
+  title: [Platform Engineer],
+  society: [True Homes],
+  logo: image("../src/logos/true.png"),
+  date: [2023 - Present],
+  location: [Charlotte, NC],
+  description: list([Designed a strangler-fig migration pattern to upgrade a large web forms project to modern Blazor],[Facilitated a migration from TFS to Git, including the creation of a Git tool to manage multiple repositories across the company], [Introduced a new document builder tool, eliminating the need for manual document creation],[Reduced the page load time for a high-traffic tool by 86%, saving relevant employees 50+ hours per year],[Optimized the pdf build and aggregation process, reducing generation times by 58%]),
 )
