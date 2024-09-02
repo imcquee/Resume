@@ -17,6 +17,7 @@
           buildInputs = with pkgs; [
             typst
             zathura
+            pandoc
           ];
         };
       };
