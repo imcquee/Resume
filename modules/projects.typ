@@ -4,6 +4,7 @@
 #let cvSection = cvSection.with(metadata: metadata)
 #let cvEntry = cvEntry.with(metadata: metadata)
 
+#v(5pt)
 
 #cvSection("Projects & Associations")
 
