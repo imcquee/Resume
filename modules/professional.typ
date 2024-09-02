@@ -9,16 +9,13 @@
 #cvSection("Professional Experience")
 
 #cvEntry(
-  title: [Junior Software Engineer],
-  society: [Fidelity Investments],
-  logo: image("../src/logos/fidelity.png"),
-  date: [2020 - 2021],
-  location: [Raleigh, NC],
-  description: list(
-    [LEAP program graduate: a 6-month full-stack development program for high-potential CS graduates],
-    [Maintained and developed sensitive customer investment APIs for high value executives],
-  ),
-  tags: (".NET Core/Framework", "Java", "Angular", "Oracle SQL", "Azure DevOps CI/CD"),
+  title: [Platform Engineer],
+  society: [True Homes],
+  logo: image("../src/logos/true.png"),
+  date: [2023 - Present],
+  location: [Charlotte, NC],
+  description: list([Designed a strangler-fig migration pattern to upgrade a large web forms project to modern Blazor],[Facilitated a migration from TFS to Git, including the creation of a Git tool to manage multiple repositories across the company], [Introduced a new document builder tool, eliminating the need for manual document creation],[Reduced the page load time for a high-traffic tool by 86%, saving relevant employees 50+ hours per year],[Optimized the pdf build and aggregation process, reducing generation times by 58%]),
+  tags: (".NET Core/Framework", "Blazor", "MS SQL", "Azure DevOps CI/CD")
 )
 
 #cvEntry(
@@ -34,11 +31,14 @@
 )
 
 #cvEntry(
-  title: [Platform Engineer],
-  society: [True Homes],
-  logo: image("../src/logos/true.png"),
-  date: [2023 - Present],
-  location: [Charlotte, NC],
-  description: list([Designed a strangler-fig migration pattern to upgrade a large web forms project to modern Blazor],[Facilitated a migration from TFS to Git, including the creation of a Git tool to manage multiple repositories across the company], [Introduced a new document builder tool, eliminating the need for manual document creation],[Reduced the page load time for a high-traffic tool by 86%, saving relevant employees 50+ hours per year],[Optimized the pdf build and aggregation process, reducing generation times by 58%]),
-  tags: (".NET Core/Framework", "Blazor", "MS SQL", "Azure DevOps CI/CD")
+  title: [Junior Software Engineer],
+  society: [Fidelity Investments],
+  logo: image("../src/logos/fidelity.png"),
+  date: [2020 - 2021],
+  location: [Raleigh, NC],
+  description: list(
+    [LEAP program graduate: a 6-month full-stack development program for high-potential CS graduates],
+    [Maintained and developed sensitive customer investment APIs for high value executives],
+  ),
+  tags: (".NET Core/Framework", "Java", "Angular", "Oracle SQL", "Azure DevOps CI/CD"),
 )
