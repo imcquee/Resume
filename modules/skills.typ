@@ -24,5 +24,5 @@
 
 #cvSkill(
   type: [Personal Interests],
-  info: [Trying new languages and tools #fa-icon("laptop-code") #hBar() Tennis #fa-icon("person-running") #hBar() Live Music #fa-icon("drum") #hBar() Arsenal FC #fa-icon("futbol") #hBar() Going new places #fa-icon("umbrella-beach")],
+  info: [Trying new languages and tools #fa-icon("code") #hBar() Tennis #fa-icon("person-running") #hBar() Live Music #fa-icon("drum") #hBar() Arsenal FC #fa-icon("futbol") #hBar() Going new places #fa-icon("umbrella-beach")],
 )
