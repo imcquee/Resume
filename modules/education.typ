@@ -4,6 +4,8 @@
 #let cvSection = cvSection.with(metadata: metadata)
 #let cvEntry = cvEntry.with(metadata: metadata)
 
+#v(-20pt)
+
 #cvSection("Education")
 
 #cvEntry(
