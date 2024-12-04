@@ -44,7 +44,7 @@ language = "en"
     # The custom value is for any additional information you want to add, name it as custom-1, custom-2, etc.
     [personal.info]
         github = "imcquee"
-        phone = " 843-368-1526"
+        phone = "1-843-368-1526"
         email = "imcqueendev@gmail.com"
         homepage = "isaacmcqueen.com"
 

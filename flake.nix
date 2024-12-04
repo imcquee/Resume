@@ -1,25 +1,34 @@
 {
-  description = "Resume flake";
-
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
 
   outputs =
     { nixpkgs, ... }:
-    let
-      system = "x86_64-darwin";
-      pkgs = import nixpkgs { inherit system; };
-    in
     {
-      devShells.${system} = {
-        default = pkgs.mkShell {
-          buildInputs = with pkgs; [
-            typst
-            zathura
-            pandoc
+      devShells =
+        let
+          lib = nixpkgs.lib;
+          systems = [
+            "x86_64-linux"
+            "x86_64-darwin"
+            "aarch64-darwin"
           ];
-        };
-      };
+        in
+        lib.genAttrs systems (
+          system:
+          let
+            pkgs = import nixpkgs { inherit system; };
+          in
+          {
+            default = pkgs.mkShell {
+              packages = with pkgs; [
+                typst
+                zathura
+                pandoc
+              ];
+            };
+          }
+        );
     };
 }
