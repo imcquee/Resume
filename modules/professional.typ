@@ -9,7 +9,7 @@
 #cvSection("Professional Experience")
 
 #cvEntry(
-  title: [Platform Engineer],
+  title: [Platform Engineer 2],
   society: [True Homes],
   logo: image("../src/logos/true.png"),
   date: [2023 - Present],
