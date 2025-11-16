@@ -1,5 +1,5 @@
 // Imports
-#import "@preview/brilliant-cv:2.0.1": cvSection, cvEntry
+#import "@preview/brilliant-cv:2.0.7": cvSection, cvEntry
 #let metadata = toml("../metadata.toml")
 #let cvSection = cvSection.with(metadata: metadata)
 #let cvEntry = cvEntry.with(metadata: metadata)
@@ -27,7 +27,7 @@
   description: list(
     [Implemented a driver tracking system monitoring 100+ drivers daily in Southern, Central, and Northern California],
     [Created a cloud based media library to share multimedia content across the company], [Led development for a dynamic routing system that leverages vehicle routing algorithms with safe and transactional overrides]),
-  tags: ("Typescript", "NodeJS", "React", "React Native", "MongoDB", "Github Actions", "AWS Elastic Beanstalk CI/CD")
+  tags: ("Typescript", "NodeJS", "React", "React Native", "MongoDB", "Github Actions", "AWS CI/CD")
 )
 
 #cvEntry(

@@ -9,7 +9,12 @@
       devShells =
         let
           lib = nixpkgs.lib;
-          systems = [ "x86_64-linux" "aarch64-linux" "x86_64-darwin" "aarch64-darwin" ];
+          systems = [
+            "x86_64-linux"
+            "aarch64-linux"
+            "x86_64-darwin"
+            "aarch64-darwin"
+          ];
         in
         lib.genAttrs systems (
           system:
@@ -22,6 +27,8 @@
                 typst
                 zathura
                 pandoc
+                tinymist
+                font-awesome_6
               ];
             };
           }
