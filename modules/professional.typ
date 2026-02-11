@@ -9,6 +9,16 @@
 #cvSection("Professional Experience")
 
 #cvEntry(
+  title: [Founding Engineer],
+  society: [Expys],
+  logo: image("../src/logos/expys.png"),
+  date: [2025 - Present],
+  location: [Los Angeles, CA],
+  description: list([2 person engineering team that built out an internal Admin Dashboard (NextJS), internal Admin Mobile App (React Native), and customer facing Marketplace App (React Native)],[Developed public and internal alert system, including full support for Android/IOS/Web Push Notifications], [Created simple but effective AI tools to generate product offerings and analyze customer conversations],[Built interactive map to display and manage global events],[Deployed physical Github Actions runners to manage CI/CD pipelines, saving \$500 - \$1000 per month in cloud costs]),
+  tags: ("React", "React Native", "NodeJS", "PostgreSQL", "LangChain", "Local/Cloud LLM", "Sentry", "Grafana", "Docker", "Github Actions", "Figma")
+)
+
+#cvEntry(
   title: [Platform Engineer 2],
   society: [True Homes],
   logo: image("../src/logos/true.png"),

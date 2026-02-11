@@ -21,16 +21,3 @@ to excel academically, socially, and professionally],
     [Board member responsible for planning and executing events, managing finances, and organizing campus outreach]
   ),
 )
-
-#cvEntry(
-  title: [Creator],
-  logo: image("../src/logos/playstation.png"),
-  society: [Debug and Deploy Tool],
-  date: [],
-  location: [],
-  description: list(
-    [Tool that allows you to build, deploy, and debug applications for the PS Vita via FTP with one command],
-    [Enables basic commands to be sent wirelessly via Unix/Windows CLI, VSCode, or MacBook Touch Bar (ex. screen on, restart, copy files)]
-  ),
-  tags: ("Typescript", "Lua", "Sqlite")
-)

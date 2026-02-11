@@ -16,6 +16,6 @@
   logo: image("../src/logos/clemson.png"),
   description: list(
     [Major Focus: Distributed and Cloud Computing],
-    [Courses: Software Engineering #hBar() Functional Programming #hBar() Data Structures and Algorithms #hBar() Database Systems #hBar() Operating Systems #hBar() Networking #hBar() Computer Architecture],
   ),
+  tags: ("Software Engineering", "Functional Programming", "Data Structures and Algorithms", "Database Systems", "Operating Systems", "Networking", "Computer Architecture"),
 )
