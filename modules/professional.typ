@@ -14,7 +14,7 @@
   logo: image("../src/logos/expys.png"),
   date: [2025 - Present],
   location: [Los Angeles, CA],
-  description: list([2 person engineering team that built out an internal Admin Dashboard (NextJS), internal Admin Mobile App (React Native), and customer facing Marketplace App (React Native)],[Developed public and internal alert system, including full support for Android/IOS/Web Push Notifications], [Created simple but effective AI tools to generate product offerings and analyze customer conversations],[Built interactive map to display and manage global events],[Deployed physical Github Actions runners to manage CI/CD pipelines, saving \$500 - \$1000 per month in cloud costs]),
+  description: list([Architected and shipped three products as a 2-person engineering team: an Admin Dashboard (Next.js), Admin Mobile App (React Native), and customer-facing Marketplace App (React Native)],[Engineered cross-platform notification system with full Android, iOS, and Web Push support for public and internal alerts], [Built LLM-powered tools to auto-generate product offerings and extract insights from customer conversations],[Designed interactive map interface to visualize and manage global events in real time],[Deployed self-hosted GitHub Actions runners, cutting CI/CD infrastructure costs by \$500--\$1000/month]),
   tags: ("React", "React Native", "NodeJS", "PostgreSQL", "LangChain", "Local/Cloud LLM", "Sentry", "Grafana", "Docker", "Github Actions", "Figma")
 )
 
@@ -22,21 +22,22 @@
   title: [Platform Engineer 2],
   society: [True Homes],
   logo: image("../src/logos/true.png"),
-  date: [2023 - Present],
+  date: [2023 - 2025],
   location: [Charlotte, NC],
-  description: list([Designed a strangler-fig migration pattern to upgrade a large web forms project to modern Blazor],[Facilitated a migration from TFS to Git, including the creation of a Git tool to manage multiple repositories across the company], [Introduced a new document builder tool, eliminating the need for manual document creation],[Reduced the page load time for a high-traffic tool by 86%, saving relevant employees 50+ hours per year],[Optimized the pdf build and aggregation process, reducing generation times by 58%]),
+  description: list([Designed a strangler-fig migration pattern to incrementally modernize a legacy Web Forms application to Blazor],[Led company-wide migration from TFS to Git and built a custom CLI tool to manage multi-repo workflows], [Developed an automated document builder, eliminating manual document creation across the organization],[Reduced page load time for a high-traffic internal tool by 86%, saving employees 50+ hours per year],[Optimized PDF generation and aggregation pipeline, cutting build times by 58%]),
   tags: (".NET Core/Framework", "Blazor", "MS SQL", "Azure DevOps CI/CD")
 )
 
 #cvEntry(
-  title: [Software Engineer/ Senior Software Engineer],
+  title: [Software Engineer / Senior Software Engineer],
   society: [Driven Deliveries],
   logo: image("../src/logos/driven.jpeg"),
   date: [2021 - 2023],
   location: [Los Angeles, CA],
   description: list(
-    [Implemented a driver tracking system monitoring 100+ drivers daily in Southern, Central, and Northern California],
-    [Created a cloud based media library to share multimedia content across the company], [Led development for a dynamic routing system that leverages vehicle routing algorithms with safe and transactional overrides]),
+    [Built real-time driver tracking system monitoring 100+ drivers daily across Southern, Central, and Northern California],
+    [Architected a cloud-based media library for centralized multimedia sharing across the organization],
+    [Led development of a dynamic routing engine using vehicle routing algorithms with safe, transactional override capabilities]),
   tags: ("Typescript", "NodeJS", "React", "React Native", "MongoDB", "Github Actions", "AWS CI/CD")
 )
 
@@ -47,8 +48,8 @@
   date: [2020 - 2021],
   location: [Raleigh, NC],
   description: list(
-    [LEAP program graduate: a 6-month full-stack development program for high-potential CS graduates],
-    [Maintained and developed sensitive customer investment APIs for high value executives],
+    [Selected for LEAP program: a competitive 6-month full-stack development program for high-potential CS graduates],
+    [Developed and maintained secure investment APIs serving high-net-worth executive accounts],
   ),
   tags: (".NET Core/Framework", "Java", "Angular", "Oracle SQL", "Azure DevOps CI/CD"),
 )

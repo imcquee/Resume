@@ -15,9 +15,7 @@
   date: [],
   location: [],
   description: list(
-    [Clemson University’s chapter of the Student African‐American Brotherhood (SAAB)],
-    [SAAB is an inclusive organization dedicated to ensuring men of color have the support needed
-to excel academically, socially, and professionally],
-    [Board member responsible for planning and executing events, managing finances, and organizing campus outreach]
+    [Co-founded Clemson University’s chapter of the Student African‐American Brotherhood (SAAB), an organization dedicated to ensuring men of color excel academically, socially, and professionally],
+    [Board member responsible for planning and executing events, managing finances, and organizing campus outreach],
   ),
 )

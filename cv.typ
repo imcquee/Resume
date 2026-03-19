@@ -14,8 +14,8 @@
   profilePhoto: image("./src/avatar.png")
 )
 #importModules((
-  "education",
   "professional",
+  "education",
   "projects",
   "skills",
 ))
